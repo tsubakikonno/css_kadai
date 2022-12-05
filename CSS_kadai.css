@@ -1,4 +1,4 @@
-h1 {
+.header {
     font-size: 30px;
     text-align: left;
     color: navy;
@@ -12,7 +12,7 @@ h1 {
   
   }
   
-  h2 {
+  .title {
     text-align: bottom;
     font-size: 85px;
     font-weight: lighter;
@@ -49,10 +49,11 @@ h1 {
   }
   
   img { 
+    display: block;
     position: absolute;
     top:200px;
     right: 0px;
-    width: auto;
+    width: 50%;
     z-index: 60;
     
   }
